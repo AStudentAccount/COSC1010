@@ -1,6 +1,6 @@
 #
 # Kellen McBurnett
-# Sun, Feb 2
+# 2/2/2025
 # Sales Prediction Programming Project
 # COSC 1010
 #
