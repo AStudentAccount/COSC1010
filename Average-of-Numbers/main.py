@@ -1,6 +1,6 @@
 #
-# Name
-# Date
+# Kellen McBurnett
+# March 16
 # Average of Numbers Programming Project
 # COSC 1010
 #
