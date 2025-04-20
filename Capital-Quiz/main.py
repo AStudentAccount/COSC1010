@@ -18,7 +18,7 @@ def main():
     
     # While loop
     while True:
-        # Select random and coinciding state from dictionary
+        # Select random state and coinciding capital from dictionary
         state = random.choice(states)
         capital = states_and_capitals[state]
         
@@ -48,8 +48,7 @@ def main():
 # Initialize dictionary
 import random
 
-states_and_capitals = {
-            'Alabama':'Montgomery', 'Alaska':'Juneau',
+states_and_capitals = {'Alabama':'Montgomery', 'Alaska':'Juneau',
                 'Arizona':'Phoenix', 'Arkansas':'Little Rock',
                 'California':'Sacramento', 'Colorado':'Denver',
                 'Connecticut':'Hartford', 'Delaware':'Dover',
@@ -73,7 +72,6 @@ states_and_capitals = {
                 'Texas':'Austin', 'Utah':'Salt Lake City',
                 'Vermont':'Montpelier', 'Virginia':'Richmond',
                 'Washington':'Olympia', 'West Virginia':'Charleston',
-                'Wisconsin':'Madison', 'Wyoming':'Cheyenne'
-        }
+                'Wisconsin':'Madison', 'Wyoming':'Cheyenne'}
 
 main()
