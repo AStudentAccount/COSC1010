@@ -14,7 +14,7 @@ encry_library = {'A': '!', 'B': '@', 'C': '#', 'D': '$', 'E': '%', 'F': '^', 'G'
                  'k': 'a', 'l': 'b', 'm': 'c', 'n': 'd', 'o': 'e', 'p': 'f', 'q': 'g', 'r': 'h', 's': 'i', 
                  't': 'j', 'u': 'k', 'v': '"', 'w': 'm', 'x': 'n', 'y': 'o', 'z': 'p'}
 # Open text.txt and read it
-file = open('File-Encryption-and-Decryption/text.txt', 'r')
+file = open('text.txt', 'r')
 orig_text = file.read()
 # Assign encry_txt an empty string
 encry_txt = ""
@@ -23,7 +23,7 @@ for key in orig_text:
     # Update the empty string with the keys from the dictionary
     encry_txt += encry_library.get(key, key)
     # Open the new file and write into it with the updated keys
-    encry_file = open('File-Encryption-and-Decryption/encrypted.txt', 'w')
+    encry_file = open('encrypted.txt', 'w')
     encry_file.write(encry_txt)
 
 # Define Decrypted Library
@@ -35,7 +35,7 @@ decry_library = {'!': 'A', '@': 'B', '#': 'C', '$': 'D', '%': 'E', '^': 'F', '&'
                  'j': 't', 'k': 'u', '"': 'v', 'm': 'w', 'n': 'x', 'o': 'y', 'p': 'z'}
 
 # Open encrypted.txt and read it
-file = open('File-Encryption-and-Decryption/encrypted.txt', 'r')
+file = open('encrypted.txt', 'r')
 orig_text = file.read()
 # Assign encry_txt an empty string
 encry_txt = ""
